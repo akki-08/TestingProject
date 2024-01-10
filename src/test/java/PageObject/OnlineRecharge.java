@@ -14,8 +14,8 @@ public class OnlineRecharge extends StartingClass {
 	{
 		this.driver=driver;
 	}
-	
-	public void Recharge()
+	boolean rech=false;
+	public boolean Recharge()
 	{
 		driver.findElement(By.xpath("//a[contains(@href,'/gp/sva/dashboard?ref_=nav_cs_apay')]")).click();
 		
@@ -30,5 +30,9 @@ public class OnlineRecharge extends StartingClass {
 		driver.findElement(By.xpath("//span[normalize-space()='Airtel']")).click();
 		
 		driver.findElement(By.xpath("//span[normalize-space()='Delhi NCR']")).click();
+
+		rech=true;
+		
+		return rech;
 	}
 }
