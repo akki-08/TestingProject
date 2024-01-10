@@ -24,6 +24,8 @@ public WebDriver driver;
         driver.findElement(By.xpath("//input[@id='ap_password']")).sendKeys(property.getProperty("password"));
         
         driver.findElement(By.xpath("//input[@id='signInSubmit']")).click();
+
+	System.out.println("Successfully Logged In");
     }
 
 }
