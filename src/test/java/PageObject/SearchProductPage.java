@@ -19,5 +19,7 @@ public WebDriver driver;
 		driver.findElement(By.xpath("//input[@id='twotabsearchtextbox']")).sendKeys("Smart Watch");
 		
 		driver.findElement(By.xpath("//input[@id='nav-search-submit-button']")).click();
+
+		System.out.println("Product is displayed scuccessfully.....");
 	}
 }
