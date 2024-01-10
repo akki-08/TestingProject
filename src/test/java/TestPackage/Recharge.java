@@ -10,12 +10,7 @@ public class Recharge extends StartingClass {
 	public void recharge() throws InterruptedException 
 	{
 		OnlineRecharge obj = new OnlineRecharge(driver);
-		if(obj.Recharge())
-		{
-			System.out.println("Succesfully recahrged");	
-		}else{
-			System.out.println("Recharge failed....");
-		}
+		obj.Recharge();
 	}
 
 }
