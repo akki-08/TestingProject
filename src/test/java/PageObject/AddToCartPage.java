@@ -27,6 +27,8 @@ public class AddToCartPage extends StartingClass {
         js.executeScript("window.scrollBy(0, -500)");
         
         driver.findElement(By.id("nav-cart-count")).click();
+
+	System.out.println("Product successfully added to cart");
        
 	}
 }
