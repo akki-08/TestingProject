@@ -7,6 +7,7 @@
       <class name="TestPackage.SearchClass"/>
       <class name="TestPackage.OrderClass"/>
       <class name="TestPackage.CartClass"/>
+      <class name="TestPackage.Recharge"/>
       
     </classes>
   </test> <!-- Test -->
