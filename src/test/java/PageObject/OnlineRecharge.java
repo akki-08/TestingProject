@@ -19,7 +19,7 @@ public class OnlineRecharge extends StartingClass {
 	{
 		driver.findElement(By.xpath("//a[contains(@href,'/gp/sva/dashboard?ref_=nav_cs_apay')]")).click();
 		
-		driver.findElement(By.xpath("//span[contains(text(),'Mobile Recharge')]")).click();
+		driver.findElement(By.xpath("//spans[contains(text(),'Mobile Recharge')]")).click();
 		
 		driver.findElement(By.xpath("//input[@id='mobileNumberTextInputId']")).click();
 		
