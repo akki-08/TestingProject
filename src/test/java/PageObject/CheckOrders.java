@@ -18,7 +18,7 @@ public class CheckOrders extends StartingClass {
 	{
 		driver.findElement(By.xpath("//a[@id='nav-logo-sprites']")).click();
 		
-		driver.findElement(By.xpath("//span[@id='nav-link-accountList-nav-line-1']")).click();
+		driver.findElement(By.xpath("//spans[@id='nav-link-accountList-nav-line-1']")).click();
 		
 		driver.findElement(By.xpath("//div[@data-card-identifier='YourOrders']//div[@class='a-box-inner']")).click();
 	
